@@ -13,6 +13,7 @@ public class rezervasyon {
         driver.get("https://www.grandakca.com/");
 
         driver.manage().window().maximize();
+        ////////
         driver.findElement(By.xpath("//div[@class=\"stm-header__element stm_header_element_603cef866aa01 stm-header__element_btn_solid\"]")).click();
         driver.findElement(By.cssSelector("#arrival")).click();
         Thread.sleep(3000);
